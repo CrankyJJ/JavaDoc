@@ -1,4 +1,18 @@
 
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏÌæ€
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(àªÅö8àšàóé1
+X
+java:S1854";Remove this useless assignment to local variable "pedido1".( €î8»±²ôé1
+W
+java:S1854	":Remove this useless assignment to local variable "helado".(µÛÚ¸8»±²ôé1
+Y
+java:S1854"<Remove this useless assignment to local variable "refresco".(”ÀÚ°8»±²ôé1
+a
+java:S1854"?Remove this useless assignment to local variable "hamburguesa".(ïòËşÿÿÿÿ8»±²ôé1
+R
+java:S1481"0Remove this unused "hamburguesa" local variable.(ïòËşÿÿÿÿ8Ã±²ôé1
+J
+java:S1481"-Remove this unused "refresco" local variable.(”ÀÚ°8Ä±²ôé1
+H
+java:S1481	"+Remove this unused "helado" local variable.(µÛÚ¸8Ä±²ôé1
+I
+java:S1481",Remove this unused "pedido1" local variable.( €î8Ç±²ôé1
