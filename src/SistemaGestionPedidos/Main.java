@@ -11,5 +11,9 @@ public class Main {
 
         Pedido pedido1 = new Pedido(1, new Date(), "Juan", 2);
 
+        pedido1.agregarProducto(hamburguesa);
+        pedido1.agregarProducto(refresco);
+        pedido1.agregarProducto(helado);
+
     }
 }
