@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="JavaDoc">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaDoc</output-path>
+    <root id="root">
+      <element id="archive" name="JavaDoc.jar">
+        <element id="module-output" name="JavaDoc" />
+      </element>
+    </root>
+  </artifact>
+</component>
