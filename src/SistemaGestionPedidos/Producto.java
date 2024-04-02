@@ -1,5 +1,11 @@
 package SistemaGestionPedidos;
 
+/**
+ * Clase que representa un producto en un restaurante.
+ * @author [Jose Juan Dos Reis De Conceicao]
+ * @version 1.0
+ * @since [02/04/2024]
+ */
 public class Producto {
     private String nombre;
     private String descripcion;
