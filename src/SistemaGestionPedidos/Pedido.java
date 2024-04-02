@@ -16,6 +16,13 @@ public class Pedido {
     private String cliente;
     private int mesa;
 
+    /**
+     * Constructor de la clase Pedido.
+     * @param numeroPedido El número único del pedido.
+     * @param fechaPedido La fecha y hora en que se realizó el pedido.
+     * @param cliente El nombre del cliente que realizó el pedido.
+     * @param mesa El número de mesa en la que se realizó el pedido.
+     */
     public Pedido(int numeroPedido, Date fechaPedido, String cliente, int mesa) {
         this.numeroPedido = numeroPedido;
         this.productos = new ArrayList<>();
