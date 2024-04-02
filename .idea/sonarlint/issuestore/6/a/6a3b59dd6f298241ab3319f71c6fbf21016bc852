@@ -1,4 +1,15 @@
 
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏÌæ€
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(é‘õ»8äŠ”ôé1
+M
+java:S1068"0Remove this unused "numeroPedido" private field.(œ‡ÓÁ8±Ã¡ôé1
+O
+java:S1068"-Remove this unused "productos" private field.(Ôâ’ğùÿÿÿÿ8±Ã¡ôé1
+Q
+java:S1068"/Remove this unused "fechaPedido" private field.(ªÕßœÿÿÿÿÿ8µÃ¡ôé1
+F
+java:S1068	"*Remove this unused "estado" private field.(Í­ß)8µÃ¡ôé1
+M
+java:S1068
+"+Remove this unused "cliente" private field.(‰çÓ£øÿÿÿÿ8µÃ¡ôé1
+E
+java:S1068"(Remove this unused "mesa" private field.(Ğèç8µÃ¡ôé1
