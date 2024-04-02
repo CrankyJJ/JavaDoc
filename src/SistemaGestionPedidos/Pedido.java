@@ -19,4 +19,8 @@ public class Pedido {
         this.mesa = mesa;
     }
 
+    public void agregarProducto(Producto producto) {
+        productos.add(producto);
+    }
+
 }
