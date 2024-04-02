@@ -15,5 +15,18 @@ public class Main {
         pedido1.agregarProducto(refresco);
         pedido1.agregarProducto(helado);
 
+        System.out.println("Pedido " + pedido1.getNumeroPedido() + " - Mesa: " + pedido1.getMesa());
+        System.out.println("Fecha: " + pedido1.getFechaPedido());
+        System.out.println("Cliente: " + pedido1.getCliente());
+        System.out.println("Estado: " + pedido1.obtenerEstado());
+        System.out.println("------------------------------------");
+        System.out.println("Productos:");
+
+
+        for (Producto producto : pedido1.getProductos()) {
+            System.out.println("- " + producto.getNombre() + ": €" + producto.getPrecio());
+        }
     }
+
+
 }
