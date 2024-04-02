@@ -31,6 +31,11 @@ public class Pedido {
         this.cliente = cliente;
         this.mesa = mesa;
     }
+
+    /**
+     * Obtiene la lista de productos del pedido.
+     * @return La lista de productos del pedido.
+     */
     public ArrayList<Producto> getProductos() {
         return productos;
     }
