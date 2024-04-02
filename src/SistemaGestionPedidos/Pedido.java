@@ -18,6 +18,25 @@ public class Pedido {
         this.cliente = cliente;
         this.mesa = mesa;
     }
+    public ArrayList<Producto> getProductos() {
+        return productos;
+    }
+
+    public int getNumeroPedido() {
+        return numeroPedido;
+    }
+
+    public Date getFechaPedido() {
+        return fechaPedido;
+    }
+
+    public String getCliente() {
+        return cliente;
+    }
+
+    public int getMesa() {
+        return mesa;
+    }
 
     public void agregarProducto(Producto producto) {
         productos.add(producto);
