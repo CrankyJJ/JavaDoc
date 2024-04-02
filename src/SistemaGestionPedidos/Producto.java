@@ -23,13 +23,26 @@ public class Producto {
         this.precio = precio;
     }
 
+    /**
+     * Obtiene el nombre del producto.
+     * @return El nombre del producto.
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Obtiene la descripción del producto.
+     * @return La descripción del producto.
+     */
     public String getDescripcion() {
         return descripcion;
     }
+
+    /**
+     * Obtiene el precio del producto.
+     * @return El precio del producto.
+     */
 
     public double getPrecio() {
         return precio;
