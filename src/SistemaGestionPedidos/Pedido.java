@@ -51,6 +51,10 @@ public class Pedido {
         return mesa;
     }
 
+    /**
+     * Agrega un producto al pedido.
+     * @param producto El producto a agregar al pedido.
+     */
     public void agregarProducto(Producto producto) {
         productos.add(producto);
     }
