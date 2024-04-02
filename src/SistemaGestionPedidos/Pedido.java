@@ -2,6 +2,12 @@ package SistemaGestionPedidos;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * Clase que representa un pedido realizado en un restaurante.
+ * @author [Jose Juan Dos Reis De Conceicao]
+ * @version 1.0
+ * @since [02/04/2024]
+ */
 public class Pedido {
     private int numeroPedido;
     private ArrayList<Producto> productos;
