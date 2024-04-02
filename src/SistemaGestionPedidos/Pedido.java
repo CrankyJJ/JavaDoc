@@ -42,4 +42,16 @@ public class Pedido {
         productos.add(producto);
     }
 
+    public void marcarComoPreparado() {
+        this.estado = "preparado";
+    }
+
+    public void marcarComoEntregado() {
+        this.estado = "entregado";
+    }
+
+    public String obtenerEstado() {
+        return estado;
+    }
+
 }
