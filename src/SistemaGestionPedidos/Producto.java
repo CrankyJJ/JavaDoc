@@ -11,6 +11,12 @@ public class Producto {
     private String descripcion;
     private double precio;
 
+    /**
+     * Constructor de la clase Producto.
+     * @param nombre El nombre del producto.
+     * @param descripcion La descripción del producto.
+     * @param precio El precio del producto.
+     */
     public Producto(String nombre, String descripcion, double precio) {
         this.nombre = nombre;
         this.descripcion = descripcion;
